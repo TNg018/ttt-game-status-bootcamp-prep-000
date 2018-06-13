@@ -16,4 +16,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
+  return false/nil if WIN_COMBINATIONS == false
 end
