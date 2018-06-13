@@ -54,5 +54,7 @@ def draw?(board)
 end
 
 def winner(board)
-  board[win_combination]
+  if won?board 
+    board[win_combination]
+  end
 end
