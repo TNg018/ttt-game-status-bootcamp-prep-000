@@ -39,6 +39,8 @@ end
 
 def full?(board)
   if board.detect {|i| i == " " || i == nil}
+    return false
+  else true
 end
 
 def draw?(board)
