@@ -23,3 +23,6 @@ def won?(board)
     end
   end
 end
+
+def over?(board)
+end
