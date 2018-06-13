@@ -26,3 +26,6 @@ end
 
 def over?(board)
 end
+
+def full?(board)
+end
