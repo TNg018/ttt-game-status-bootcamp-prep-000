@@ -18,6 +18,6 @@ WIN_COMBINATIONS = [
 def won?(board)
   if WIN_COMBINATIONS == true
   else
-  if WIN_COMBINATIONS == false || == nil
+  if WIN_COMBINATIONS == false || WIN_COMBINATIONS == nil
   return false
 end
