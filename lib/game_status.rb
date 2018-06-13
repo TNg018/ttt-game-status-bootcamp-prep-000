@@ -4,8 +4,6 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
-def won?(board)
-
 WIN_COMBINATIONS = [
   [0,1,2], #top_row_win
   [3,4,5], #middle_row_win
@@ -16,7 +14,12 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6]
 ]
-  if WIN_COMBINATIONS.to_a = match_array[WIN_COMBINATIONS]
+
+def won?(board)
+  WIN_COMBINATIONS.detect do |win.combination|
+    win_index_1 = win_combination[0]
+    win_index_2 = win_combination[1]
+    win_index_3 = win_combination[2]
   else
   if WIN_COMBINATIONS == false || WIN_COMBINATIONS == nil
   return false
