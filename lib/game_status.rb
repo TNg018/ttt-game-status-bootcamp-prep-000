@@ -35,7 +35,7 @@ else false
 end
 
 def over?(board)
-  
+
 end
 
 def full?(board)
