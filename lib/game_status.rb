@@ -38,6 +38,7 @@ def over?(board)
 end
 
 def full?(board)
+  if board.detect {|i| i == " " || i == nil}
 end
 
 def draw?(board)
